@@ -43,23 +43,22 @@ class GoogleTestWrapper(test.test, object):
   test_dir = None
 
   def __new__(cls, *args, **kwds):
-    from google.apputils import setup_command
+    from google_apputils import setup_command
     dist = setup_command.GoogleTest(*args, **kwds)
     dist.test_dir = GoogleTestWrapper.test_dir
     return dist
 
 setup(
-    name="google-apputils",
+    name="google_apputils",
     version="0.4.0",
     packages=find_packages(exclude=["tests"]),
-    namespace_packages=["google"],
     entry_points={
         "distutils.commands": [
-            "google_test = google.apputils.setup_command:GoogleTest",
+            "google_test = google_apputils.setup_command:GoogleTest",
             ],
 
         "distutils.setup_keywords": [
-            ("google_test_dir = google.apputils.setup_command"
+            ("google_test_dir = google_apputils.setup_command"
              ":ValidateGoogleTestDir"),
             ],
         },
@@ -79,5 +78,5 @@ setup(
 
     author="Google Inc.",
     author_email="opensource@google.com",
-    url="http://code.google.com/p/google-apputils-python",
+    url="https://github.com/jeremydw/google-apputils-python",
     )

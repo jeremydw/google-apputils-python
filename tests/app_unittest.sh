@@ -21,7 +21,7 @@ function die {
 	exit 1
 }
 
-APP_PACKAGE="google.apputils"
+APP_PACKAGE="google_apputils"
 
 # This should exit with error code because no main defined
 $PYTHON -c "from ${APP_PACKAGE} import app; app.run()" 2>/dev/null && \

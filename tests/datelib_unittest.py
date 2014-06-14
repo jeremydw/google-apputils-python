@@ -23,8 +23,8 @@ import time
 
 import pytz
 
-from google.apputils import basetest
-from google.apputils import datelib
+from google_apputils import basetest
+from google_apputils import datelib
 
 
 class TimestampUnitTest(basetest.TestCase):

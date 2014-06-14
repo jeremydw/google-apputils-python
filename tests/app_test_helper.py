@@ -21,7 +21,7 @@
 import sys
 
 import gflags as flags
-from google.apputils import app
+from google_apputils import app
 
 FLAGS = flags.FLAGS
 flags.DEFINE_boolean("raise_exception", False, "throw MyException from main")

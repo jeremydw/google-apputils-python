@@ -21,8 +21,8 @@ function die {
 	exit 1
 }
 
-IMPORTS="from google.apputils import app
-from google.apputils import appcommands
+IMPORTS="from google_apputils import app
+from google_apputils import appcommands
 import gflags as flags"
 
 # This should exit with error code because no main defined

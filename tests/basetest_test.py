@@ -24,7 +24,7 @@ import sys
 import unittest
 
 import gflags as flags
-from google.apputils import basetest
+from google_apputils import basetest
 
 PY_VERSION_2 = sys.version_info[0] == 2
 

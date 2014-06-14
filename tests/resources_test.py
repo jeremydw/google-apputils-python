@@ -17,10 +17,10 @@
 
 __author__ = 'dborowitz@google.com (Dave Borowitz)'
 
-from google.apputils import basetest
+from google_apputils import basetest
 
-from google.apputils import file_util
-from google.apputils import resources
+from google_apputils import file_util
+from google_apputils import resources
 
 PREFIX = __name__ + ':data/'
 

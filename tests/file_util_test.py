@@ -28,8 +28,8 @@ import tempfile
 
 import mox
 
-from google.apputils import basetest
-from google.apputils import file_util
+from google_apputils import basetest
+from google_apputils import file_util
 import gflags as flags
 
 

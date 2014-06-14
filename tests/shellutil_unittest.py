@@ -11,7 +11,7 @@ import os
 # Use unittest instead of basetest to avoid bootstrap issues / circular deps.
 import unittest
 
-from google.apputils import shellutil
+from google_apputils import shellutil
 
 # Running windows?
 win32 = (os.name == 'nt')

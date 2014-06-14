@@ -25,9 +25,9 @@ import sys
 
 import mox
 
-from google.apputils import basetest
+from google_apputils import basetest
 
-from google.apputils import app
+from google_apputils import app
 import gflags as flags
 
 FLAGS = flags.FLAGS

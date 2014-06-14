@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Copyright 2010 Google Inc. All Rights Reserved.
 
-"""Tests for google.apputils.
+"""Tests for google_apputils.
 
 In addition to the test modules under this package, we have a special TestCase
 that runs the tests that are shell scripts.
@@ -14,7 +14,7 @@ import os
 import subprocess
 import sys
 
-from google.apputils import basetest
+from google_apputils import basetest
 import gflags
 
 FLAGS = gflags.FLAGS

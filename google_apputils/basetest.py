@@ -51,9 +51,9 @@ if sys.version_info < (2, 7):
 else:
   import unittest
 
-from google.apputils import app
+import app
 import gflags as flags
-from google.apputils import shellutil
+import shellutil
 
 FLAGS = flags.FLAGS
 

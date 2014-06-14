@@ -17,10 +17,10 @@
 
 __author__ = 'dbentley@google.com (Dan Bentley)'
 
-from google.apputils import basetest
+from google_apputils import basetest
 
 import gflags as flags
-from google.apputils import stopwatch
+from google_apputils import stopwatch
 
 FLAGS = flags.FLAGS
 

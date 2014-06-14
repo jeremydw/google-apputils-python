@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Test for google.apputils.humanize."""
+"""Test for google_apputils.humanize."""
 
 
 
 import datetime
-from google.apputils import basetest
-from google.apputils import humanize
+from google_apputils import basetest
+from google_apputils import humanize
 
 
 class HumanizeTest(basetest.TestCase):

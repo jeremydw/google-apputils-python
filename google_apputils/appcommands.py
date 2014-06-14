@@ -124,7 +124,7 @@ import pdb
 import sys
 import traceback
 
-from google.apputils import app
+import app
 import gflags as flags
 
 FLAGS = flags.FLAGS
